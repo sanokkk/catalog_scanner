@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q1h5ZaV22eh92y+rWDAf++oNvPi49tqmgxIrw0LwucF3WmJzPR0mcvwVm9F2pMMdokEMl1S9IXHLVa0+FGcY0g==",
+  "success": true,
+  "projectFilePath": "/home/sanokkk/RiderProjects/CatalogScanner/ConsoleScanner/ConsoleScanner.csproj",
+  "expectedPackageFiles": [
+    "/home/sanokkk/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.20/microsoft.netcore.app.host.linux-x64.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

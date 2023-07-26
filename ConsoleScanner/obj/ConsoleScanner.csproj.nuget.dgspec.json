@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sanokkk/RiderProjects/CatalogScanner/ConsoleScanner/ConsoleScanner.csproj": {}
+  },
+  "projects": {
+    "/home/sanokkk/RiderProjects/CatalogScanner/ConsoleScanner/ConsoleScanner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sanokkk/RiderProjects/CatalogScanner/ConsoleScanner/ConsoleScanner.csproj",
+        "projectName": "ConsoleScanner",
+        "projectPath": "/home/sanokkk/RiderProjects/CatalogScanner/ConsoleScanner/ConsoleScanner.csproj",
+        "packagesPath": "/home/sanokkk/.nuget/packages/",
+        "outputPath": "/home/sanokkk/RiderProjects/CatalogScanner/ConsoleScanner/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sanokkk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

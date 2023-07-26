@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Генератор HTML-документа, отображающего содержание директории:</h1>
+    <button type="button" onclick="newLink()" id="fetchBtn">Сгенерировать</button>
+    <div id="myDiv"></div>
+    <script>
+        
+        const myDiv = document.querySelector('#myDiv');
+        function newLink(event) {
+            fetch("http://localhost:5000/file")
+                .then(() => {
+                    var lnk = document.querySelector('#link');
+                    if (!myDiv.contains(lnk)){
+                        var link = document.createElement('a');
+                        link.id = 'link'
+                        link.href = "http://localhost:5500/client/scanner.html";
+                        link.innerHTML = "Перейти";
+                        myDiv.appendChild(link);
+                        }
+                    }
+                );
+                return false;
+        }
+        newLink();
+    </script>
+    
+    
+</body>
+</html>
